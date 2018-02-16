@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordCount;
+using System;
 using System.Collections.Generic;
 using WordCount.Models;
 
@@ -58,14 +59,27 @@ namespace WordCount.Tests
 		 //Assert
 			Assert.AreEqual("Hello", newString);
 		}
+		[TestMethod]
+		public void GetSearchedStringList_ReturnCleanList_List()
+		{
+			//Arrange
+ 		 RepeatCounter newRepeatCounter = new RepeatCounter("Hello!@#$%^&*()_+. hello", "goodbye");
+ 		 //Act
+ 		 List<string> newList = newRepeatCounter.GetSearchedStringList();
+		 List<string> secondList = new List<string> {"hello", "hello"};
+		 Console.WriteLine("Generated list: " + newList[0] + "static list: " + secondList[0]);
+ 		 //Assert
+ 			CollectionAssert.AreEqual(secondList, newList);
+		}
+
 		// [TestMethod]
-		// public void GetSearchedStringNoPunctuation_ReturnAlphabetic_String()
+		// public void ToLowerCase_ReturnLowerCaseLetters_String()
 		// {
-		// 	//Arrange
-		// 	RepeatCounter newRepeatCounter = new RepeatCounter("Hello!!??", "hello");
-		// 	//Act
-		// 	string newString = newRepeatCounter.GetSearchedStringNoPunctuation();
-		// 	//Assert
+		//  //Arrange
+		//  RepeatCounter newRepeatCounter = new RepeatCounter("Hello!@#$%^&*()_+.", "hello");
+		//  //Act
+		//  string newString = newRepeatCounter.RemovePunctuation(newRepeatCounter.GetSearchedString());
+		//  //Assert
 		// 	Assert.AreEqual("Hello", newString);
 		// }
   }
