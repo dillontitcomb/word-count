@@ -35,7 +35,7 @@ namespace WordCount
       });
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("The clock isn't working.");
+        await context.Response.WriteAsync("Sorry, the word counter isn't working properly.");
       });
     }
   }

@@ -7,14 +7,22 @@
   </head>
 	<body>
 		<div class="container">
-			<h1>Input your string!</h1>
+			<div class="jumbotron">
+				<h1>Word Counter</h1>
+				<h4>Enter a sentence and a keyword, and the program will tell you how many instances of your keyword exist in the sentence!</h4>
+			</div>
 			<form action="/results" method="post">
-				<label for="input-string">String you want to search:</label>
-				<input type="text" name="input-string">
-				<label for="input-keyword">Keyword you want to count:</label>
-				<input type="text" name="input-keyword">
-				<br>
-				<button type="submit" class="btn btn-success">Submit</button>
+				<div class="form-group">
+					<label for="input-string">Sentence to search:</label>
+					<input class="form-control" type="text" name="input-string">
+					<br>
+					<br>
+					<label for="input-keyword">Keyword to find:</label>
+					<input class="form-control" type="text" name="input-keyword">
+					<br>
+					<br>
+					<button type="submit" class="btn btn-success">Submit</button>
+				</div>
 			</form>
 		</div>
 	</body>

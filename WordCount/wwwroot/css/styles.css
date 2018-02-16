@@ -1,0 +1,24 @@
+body {
+	background-color: #00004c;
+}
+
+label {
+	color: snow;
+	font-size: 30px;
+}
+
+h1 {
+	color: darkgreen;
+}
+
+h4 {
+	color: purple;
+}
+
+.form-control {
+	background-color: lightgreen;
+}
+
+.jumbotron {
+	background-color: white;
+}
