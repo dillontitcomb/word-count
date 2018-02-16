@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-	</head>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+    <title>Repeat Counter</title>
+  </head>
 	<body>
-		<h1>Input your string!</h1>
-		<form action="/" method="post">
-			<label for="inputString">String you want to search:</label>
-			<input type="text" name="inputString">
-			<label for="inputKeyword">Keyword you want to count:</label>
-			<input type="text" name="inputKeyword">
-		</form>
+		<div class="container">
+			<h1>Input your string!</h1>
+			<form action="/results" method="post">
+				<label for="input-string">String you want to search:</label>
+				<input type="text" name="input-string">
+				<label for="input-keyword">Keyword you want to count:</label>
+				<input type="text" name="input-keyword">
+				<br>
+				<button type="submit" class="btn btn-success">Submit</button>
+			</form>
+		</div>
 	</body>
 </html>

@@ -49,7 +49,7 @@ namespace WordCount.Models
 //Manipulation Methods
 		public string RemovePunctuation(string text)
 		{
-			string newString = text.Replace("!","").Replace(",","").Replace(".","").Replace("[","").Replace("]","").Replace("@","").Replace("#","").Replace("$","").Replace("%","").Replace("^","").Replace("&","").Replace("*","").Replace("(","").Replace(")","").Replace("-","").Replace("_","").Replace("+","").Replace("=","");
+			string newString = text.Replace("!","").Replace(",","").Replace(".","").Replace("[","").Replace("]","").Replace("(","").Replace(")","").Replace("-","").Replace("+","").Replace("=","");
 			return newString;
 		}
 		public void CreateSearchedStringList()

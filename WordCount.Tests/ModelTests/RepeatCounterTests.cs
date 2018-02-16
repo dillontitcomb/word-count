@@ -64,7 +64,7 @@ namespace WordCount.Tests
 		public void RemovePunctuation_ReturnLettersOnly_String()
 		{
 		 	//Arrange
-		 	RepeatCounter newRepeatCounter = new RepeatCounter("Hello!@#$%^&*()_+.", "hello");
+		 	RepeatCounter newRepeatCounter = new RepeatCounter("...Hello", "hello");
 		 	//Act
 		 	string newString = newRepeatCounter.RemovePunctuation(newRepeatCounter.GetSearchedString());
 		 	//Assert
@@ -74,7 +74,7 @@ namespace WordCount.Tests
 		public void CreateSearchedStringList_ReturnCleanList_List()
 		{
 			//Arrange
-			RepeatCounter newRepeatCounter = new RepeatCounter("Hello!@#$%^&*()_+. hello", "goodbye");
+			RepeatCounter newRepeatCounter = new RepeatCounter("Hello, hello!", "goodbye");
 			//Act
 			newRepeatCounter.CreateSearchedStringList();
 			List<string> newList = new List<string> {"hello", "hello"};
@@ -86,7 +86,7 @@ namespace WordCount.Tests
 		public void CalculateWordTotal_ReturnNumberOfFoundWords_Int()
 		{
 			//Arrange
-		 	RepeatCounter newRepeatCounter = new RepeatCounter("hello! hello$ hello% hello^", "hello");
+		 	RepeatCounter newRepeatCounter = new RepeatCounter("hello, hello, hello, hello", "hello");
 		 	//Act
 			newRepeatCounter.CreateSearchedStringList();
 			int calcTotal = newRepeatCounter.CalculateWordTotal();
