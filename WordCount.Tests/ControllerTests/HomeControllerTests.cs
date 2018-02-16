@@ -9,7 +9,7 @@ using WordCount.Models;
 namespace WordCount.Tests
 {
     [TestClass]
-    public class HomeControllerTest
+    public class HomeControllerTests : Controller
     {
 				[TestMethod]
 				public void Index_ReturnsCorrectView_True()
@@ -22,20 +22,5 @@ namespace WordCount.Tests
 					//Assert
 					Assert.IsInstanceOfType(result, typeof(ViewResult));
 				}
-				[TestMethod]
-				public void Results_HasCorrectModelType_RepeatCounter()
-				{
-						//Arrange
-		        HomeController controller = new HomeController();
-		        IActionResult actionResult = controller.Results();
-		        ViewResult resultsView = controller.Results() as ViewResult;
-            //Act
-            var result = resultsView.ViewData.Model;
-						Console.WriteLine(result + " and " + typeof(RepeatCounter));
-            //Assert
-
-            Assert.IsInstanceOfType(result, typeof(RepeatCounter));
-				}
-
     }
 }
