@@ -49,15 +49,24 @@ namespace WordCount.Tests
       Assert.AreEqual("goodbye", newRepeatCounter.GetKeyword());
 		}
 		[TestMethod]
-		public void RemoveSearchedStringPunctuation_ReturnAlphabetic_String()
+		public void RemovePunctuation_ReturnLettersOnly_String()
 		{
-			//Arrange
-			RepeatCounter newRepeatCounter = new RepeatCounter("Hello!!??", "hello");
-			//Act
-			newRepeatCounter.RemoveSearchedStringPunctuation();
-			//Assert
-			Assert.AreEqual("Hello", newRepeatCounter.GetSearchedString())
+		 //Arrange
+		 RepeatCounter newRepeatCounter = new RepeatCounter("Hello!@#$%^&*()_+.", "hello");
+		 //Act
+		 string newString = newRepeatCounter.RemovePunctuation(newRepeatCounter.GetSearchedString());
+		 //Assert
+			Assert.AreEqual("Hello", newString);
 		}
-		)
+		// [TestMethod]
+		// public void GetSearchedStringNoPunctuation_ReturnAlphabetic_String()
+		// {
+		// 	//Arrange
+		// 	RepeatCounter newRepeatCounter = new RepeatCounter("Hello!!??", "hello");
+		// 	//Act
+		// 	string newString = newRepeatCounter.GetSearchedStringNoPunctuation();
+		// 	//Assert
+		// 	Assert.AreEqual("Hello", newString);
+		// }
   }
 }
