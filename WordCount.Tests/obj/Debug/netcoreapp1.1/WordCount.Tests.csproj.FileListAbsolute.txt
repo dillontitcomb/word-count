@@ -1,0 +1,14 @@
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\WordCount.Tests.deps.json
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\WordCount.Tests.runtimeconfig.json
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\WordCount.Tests.runtimeconfig.dev.json
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\WordCount.Tests.dll
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\WordCount.Tests.pdb
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\WordCount.dll
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\bin\Debug\netcoreapp1.1\WordCount.pdb
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\obj\Debug\netcoreapp1.1\WordCount.Tests.csproj.CoreCompileInputs.cache
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\obj\Debug\netcoreapp1.1\WordCount.Tests.AssemblyInfo.cs
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\obj\Debug\netcoreapp1.1\WordCount.Tests.dll
+C:\Users\dillo\Desktop\WordCount.Solution\WordCount.Tests\obj\Debug\netcoreapp1.1\WordCount.Tests.pdb
