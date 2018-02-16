@@ -9554,11 +9554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dillo\\Desktop\\WordCount.Solution\\WordCount\\WordCount.csproj",
+      "projectUniqueName": "C:\\Users\\dillo\\desktop\\wordcount.solution\\wordcount\\WordCount.csproj",
       "projectName": "WordCount",
-      "projectPath": "C:\\Users\\dillo\\Desktop\\WordCount.Solution\\WordCount\\WordCount.csproj",
+      "projectPath": "C:\\Users\\dillo\\desktop\\wordcount.solution\\wordcount\\WordCount.csproj",
       "packagesPath": "C:\\Users\\dillo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dillo\\Desktop\\WordCount.Solution\\WordCount\\obj\\",
+      "outputPath": "C:\\Users\\dillo\\desktop\\wordcount.solution\\wordcount\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dillo\\AppData\\Roaming\\NuGet\\NuGet.Config"

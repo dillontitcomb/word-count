@@ -20,9 +20,9 @@
 	* _Example input: "hello hello hello how are you doing"_
 	* _Example output: "hello", "hello", "hello", "how", "are", "you", "doing"_
 
-* _Program tracks a value that increases for each word positively searched:_
+* _Program tracks a value that increases for each word successfully searched:_
 	* _Example input: "hello", "hello", "hello", "how", "are", "you", "doing"_
-	* _Example output: "1"..."2"..."3"_
+	* _Example output: 3_
 
 * _Program displays int value of number of times searched word exists in string:_
 	* _Example input: "hello, hello, hello! how are you doing?", "hello"_

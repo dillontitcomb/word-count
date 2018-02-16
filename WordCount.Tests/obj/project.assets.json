@@ -10650,11 +10650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dillo\\Desktop\\WordCount.Solution\\WordCount.Tests\\WordCount.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\dillo\\desktop\\wordcount.solution\\wordcount.tests\\WordCount.Tests.csproj",
       "projectName": "WordCount.Tests",
-      "projectPath": "C:\\Users\\dillo\\Desktop\\WordCount.Solution\\WordCount.Tests\\WordCount.Tests.csproj",
+      "projectPath": "C:\\Users\\dillo\\desktop\\wordcount.solution\\wordcount.tests\\WordCount.Tests.csproj",
       "packagesPath": "C:\\Users\\dillo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dillo\\Desktop\\WordCount.Solution\\WordCount.Tests\\obj\\",
+      "outputPath": "C:\\Users\\dillo\\desktop\\wordcount.solution\\wordcount.tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dillo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -10668,8 +10668,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\dillo\\Desktop\\WordCount.Solution\\WordCount\\WordCount.csproj": {
-              "projectPath": "C:\\Users\\dillo\\Desktop\\WordCount.Solution\\WordCount\\WordCount.csproj"
+            "C:\\Users\\dillo\\desktop\\wordcount.solution\\WordCount\\WordCount.csproj": {
+              "projectPath": "C:\\Users\\dillo\\desktop\\wordcount.solution\\WordCount\\WordCount.csproj"
             }
           }
         }

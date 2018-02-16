@@ -1,9 +1,9 @@
-C:\Users\dillo\Desktop\WordCount.Solution\WordCount\bin\Debug\netcoreapp1.1\WordCount.deps.json
-C:\Users\dillo\Desktop\WordCount.Solution\WordCount\bin\Debug\netcoreapp1.1\WordCount.runtimeconfig.json
-C:\Users\dillo\Desktop\WordCount.Solution\WordCount\bin\Debug\netcoreapp1.1\WordCount.runtimeconfig.dev.json
-C:\Users\dillo\Desktop\WordCount.Solution\WordCount\bin\Debug\netcoreapp1.1\WordCount.dll
+C:\Users\dillo\desktop\wordcount.solution\wordcount\bin\Debug\netcoreapp1.1\WordCount.deps.json
+C:\Users\dillo\desktop\wordcount.solution\wordcount\bin\Debug\netcoreapp1.1\WordCount.runtimeconfig.json
+C:\Users\dillo\desktop\wordcount.solution\wordcount\bin\Debug\netcoreapp1.1\WordCount.runtimeconfig.dev.json
+C:\Users\dillo\desktop\wordcount.solution\wordcount\bin\Debug\netcoreapp1.1\WordCount.dll
+C:\Users\dillo\desktop\wordcount.solution\wordcount\obj\Debug\netcoreapp1.1\WordCount.csproj.CoreCompileInputs.cache
+C:\Users\dillo\desktop\wordcount.solution\wordcount\obj\Debug\netcoreapp1.1\WordCount.AssemblyInfo.cs
+C:\Users\dillo\desktop\wordcount.solution\wordcount\obj\Debug\netcoreapp1.1\WordCount.dll
+C:\Users\dillo\desktop\wordcount.solution\wordcount\obj\Debug\netcoreapp1.1\WordCount.pdb
 C:\Users\dillo\Desktop\WordCount.Solution\WordCount\bin\Debug\netcoreapp1.1\WordCount.pdb
-C:\Users\dillo\Desktop\WordCount.Solution\WordCount\obj\Debug\netcoreapp1.1\WordCount.csproj.CoreCompileInputs.cache
-C:\Users\dillo\Desktop\WordCount.Solution\WordCount\obj\Debug\netcoreapp1.1\WordCount.AssemblyInfo.cs
-C:\Users\dillo\Desktop\WordCount.Solution\WordCount\obj\Debug\netcoreapp1.1\WordCount.dll
-C:\Users\dillo\Desktop\WordCount.Solution\WordCount\obj\Debug\netcoreapp1.1\WordCount.pdb
