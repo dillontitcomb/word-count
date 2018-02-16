@@ -8,14 +8,15 @@ namespace WordCount.Models
   {
 		private string _searchedString;
 		private string _keyword;
-		private int _wordCount = 0;
+		private int _wordTotal = 0;
+		private List<string> _wordsList;
 
 		public RepeatCounter (string searchedString, string keyword)
 		{
 			_searchedString = searchedString;
 			_keyword = keyword;
 		}
-
+//Getters
 		public string GetSearchedString()
 		{
 			return _searchedString;
@@ -24,6 +25,15 @@ namespace WordCount.Models
 		{
 			return _keyword;
 		}
+		public int GetWordTotal()
+		{
+			return _wordTotal;
+		}
+		public List<string> GetWordsList()
+		{
+			return _wordsList;
+		}
+//Setters
 		public void SetSearchedString(string newString)
 		{
 			_searchedString = newString;
@@ -32,17 +42,33 @@ namespace WordCount.Models
 		{
 			_keyword = newString;
 		}
+		public void SetWordTotal(int newInt)
+		{
+			_wordTotal = newInt;
+		}
+//Manipulation Methods
 		public string RemovePunctuation(string text)
 		{
 			string newString = text.Replace("!","").Replace(",","").Replace(".","").Replace("[","").Replace("]","").Replace("@","").Replace("#","").Replace("$","").Replace("%","").Replace("^","").Replace("&","").Replace("*","").Replace("(","").Replace(")","").Replace("-","").Replace("_","").Replace("+","").Replace("=","");
 			return newString;
 		}
-		public List<string> GetSearchedStringList()
+		public void CreateSearchedStringList()
 		{
 			string newString = RemovePunctuation(_searchedString);
 			string[] newArray = newString.ToLower().Split();
 			List<string> newList = new List<string>(newArray);
-			return newList;
+			_wordsList = newList;
+		}
+		public int CalculateWordTotal()
+		{
+			foreach (var word in _wordsList)
+			{
+				if (word == _keyword)
+				{
+					_wordTotal += 1;
+				}
+			}
+			return _wordTotal;
 		}
   }
 }
