@@ -36,7 +36,7 @@ namespace WordCount.Tests
 			//Act
 			newRepeatCounter.SetSearchedString("goodbye");
 			//Assert
-      Assert.AreEqual("goodbye", newString.GetSearchedString());
+      Assert.AreEqual("goodbye", newRepeatCounter.GetSearchedString());
     }
 		[TestMethod]
     public void SetKeyword_ReturNewKeyword_String()
@@ -46,7 +46,18 @@ namespace WordCount.Tests
 			//Act
 			newRepeatCounter.SetKeyword("goodbye");
 			//Assert
-      Assert.AreEqual("goodbye", newString.GetKeyword());
+      Assert.AreEqual("goodbye", newRepeatCounter.GetKeyword());
 		}
+		[TestMethod]
+		public void RemoveSearchedStringPunctuation_ReturnAlphabetic_String()
+		{
+			//Arrange
+			RepeatCounter newRepeatCounter = new RepeatCounter("Hello!!??", "hello");
+			//Act
+			newRepeatCounter.RemoveSearchedStringPunctuation();
+			//Assert
+			Assert.AreEqual("Hello", newRepeatCounter.GetSearchedString())
+		}
+		)
   }
 }

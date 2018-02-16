@@ -24,5 +24,17 @@ namespace WordCount.Models
 		{
 			return _keyword;
 		}
+		public void SetSearchedString(string newString)
+		{
+			_searchedString = newString;
+		}
+		public void SetKeyword(string newString)
+		{
+			_keyword = newString;
+		}
+		// public List<string> GetSearchedStringList()
+		// {
+		// 	List<string> newList = _searchedString.ToLowerCase().Split();
+		// }
   }
 }
